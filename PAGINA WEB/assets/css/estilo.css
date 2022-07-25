@@ -113,7 +113,7 @@ a:hover{
     
 }
 
-#contenidos__titulo_2{
+.contenidos__titulo_2{
     color: #000000;
     text-decoration: none;
     text-align: center;
@@ -121,7 +121,9 @@ a:hover{
     margin:0 auto;
 }
 
-
+.contenidos__titulo_2:hover{
+    color: #EE2A00;
+}
 #titulodecancion1{
     display: block;
     text-align: center;
@@ -290,4 +292,8 @@ td,th{
 }
 table tr{
     text-align: center;
+}
+
+.img2{
+    width: 350px;
 }
