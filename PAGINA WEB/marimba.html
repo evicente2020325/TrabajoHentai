@@ -1,74 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Gustos de canciónes</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="assets/css/estilo.css">
-        <link rel="stylesheet" href="assets/css/normalize.css">
-    </head>
-    <body>
-        <header class="encabezado">
-            <div class="container">
-                <nav class="nav">
-                    <b class="nav__informacion--titulo">¿Sobre qué instrumento desea conocer?</b>
-                    <a href="index.html" class="nav__informacion">Inicio</a> 
-                    <a href="violin.html" class="nav__informacion">Violin</a>
-                    <a href="marimba.html" class="nav__informacion">Marimba</a>
-                </nav>                    
-            </div>   
-            
-            <div class="contenidos">
-                <div>
-                    <h2 class="contenidos__titulo">5 canciónes favoritas:</h2>
-                </div>
+
+<head>
+    <title>Gustos de canciónes</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+</head>
+<audio id="audio" controls autoplay>
+    <source src="assets/Music/meMata.mp3">
+</audio>
+
+<body>
+    <header class="encabezado">
+        <div class="container">
+            <nav class="nav">
+                <b class="nav__informacion--titulo">¿Sobre qué instrumento desea conocer?</b>
+                <a href="index.html" class="nav__informacion">Inicio</a>
+                <a href="violin.html" class="nav__informacion">Violin</a>
+                <a href="marimba.html" class="nav__informacion">Marimba</a>
+            </nav>
+        </div>
+
+        <div class="contenidos">
+            <div>
+                <h2 class="contenidos__titulo">5 canciónes favoritas:</h2>
+            </div>
             <div class="container_1">
                 <tr>
                     <td><b id="titulodecancion1">La caida del sol</b></td>
-                    <h4 class="contenidos__titulo_1">Jesús Castillo se formó en Guatemala con los maestros pianistas Miguel Espinoza y Rafael Guzmán.</h4>
+                    <h4 class="contenidos__titulo_1">Jesús Castillo se formó en Guatemala con los maestros pianistas
+                        Miguel Espinoza y Rafael Guzmán.</h4>
                     <h5>Canción:</h5>
-                    <a href = "https://www.youtube.com/watch?v=b42jP9wGrAs&list=RDaOv77J-MBpU&index=6" class="contenidos__titulo_2">Jesús Castillo Monterroso</a><br>
+                    <a href="https://www.youtube.com/watch?v=b42jP9wGrAs&list=RDaOv77J-MBpU&index=6"
+                        class="contenidos__titulo_2">Jesús Castillo Monterroso</a><br>
                     <img src="assets/imagenes/jesus.png" alt="jesus castillo">
                 </tr>
-                </div>
-                <div class="container_1">
-                    <tr>
-                        <td><b id="titulodecancion2">El Valle de la Ermita</b></td>
-                        <h4 class="contenidos__titulo_1">Fue un marimbista y compositor nacido en Alta Verapaz</h4>
-                        <h5>Canción:</h5>
-                        <a href = "https://www.youtube.com/watch?v=qzXTXXCVXGc&list=RDaOv77J-MBpU&index=4" class="contenidos__titulo_2">Rodolfo Narciso Chavarría</a><br>
-                        <img src="assets/imagenes/hqdefault.png" alt="Rodolfo">
-                    </tr>
-               </div>
+            </div>
             <div class="container_1">
-                    <tr>
-                        <td><b id="titulodecancion3">El ferrocarril de los altos</b></td>
-                        <h4 class="contenidos__titulo_1">El autor es originario de la ciudad de Quetzaltenango</h4>
-                        <h5>Canción:</h5>
-                        <a href = "https://www.youtube.com/watch?v=aOv77J-MBpU" class="contenidos__titulo_2">Domingo Bethancourt</a><br>
-                        <img src="assets/imagenes/Biografía-del-compositor-José-Domingo-Betancourt-Mazariegos.jpg" alt="Domingo">
-                    </tr>
-                </div>
+                <tr>
+                    <td><b id="titulodecancion2">El Valle de la Ermita</b></td>
+                    <h4 class="contenidos__titulo_1">Fue un marimbista y compositor nacido en Alta Verapaz</h4>
+                    <h5>Canción:</h5>
+                    <a href="https://www.youtube.com/watch?v=qzXTXXCVXGc&list=RDaOv77J-MBpU&index=4"
+                        class="contenidos__titulo_2">Rodolfo Narciso Chavarría</a><br>
+                    <img src="assets/imagenes/hqdefault.png" alt="Rodolfo">
+                </tr>
+            </div>
+            <div class="container_1">
+                <tr>
+                    <td><b id="titulodecancion3">El ferrocarril de los altos</b></td>
+                    <h4 class="contenidos__titulo_1">El autor es originario de la ciudad de Quetzaltenango</h4>
+                    <h5>Canción:</h5>
+                    <a href="https://www.youtube.com/watch?v=aOv77J-MBpU" class="contenidos__titulo_2">Domingo
+                        Bethancourt</a><br>
+                    <img src="assets/imagenes/Biografía-del-compositor-José-Domingo-Betancourt-Mazariegos.jpg"
+                        alt="Domingo">
+                </tr>
+            </div>
             <div class="container_1">
                 <tr>
                     <td><b id="titulodecancion4">Mariposa traicionera en marimba</b></td>
                     <h4 class="contenidos__titulo_1">Es un grupo musical creado en guatemala</h4>
                     <h5>Canción:</h5>
-                    <a href="https://www.youtube.com/watch?v=0V3P5fF2hGs" class="contenidos__titulo_2">Los conejos</a><br>
+                    <a href="https://www.youtube.com/watch?v=0V3P5fF2hGs" class="contenidos__titulo_2">Los
+                        conejos</a><br>
                     <img src="assets/imagenes/download.jpg" alt="Los conejos">
                 </tr>
-            </div>    
+            </div>
             <div class="container_1">
                 <tr>
                     <td><b id="titulodecancion5">Lágrimas de Thelma</b></td>
                     <h4 class="contenidos__titulo_1">Es un artista nacido en Huehuetenango</h4>
                     <h5>Canción:</h5>
-                    <a href="https://www.youtube.com/watch?v=oG9qhEDBzLo&list=RDaOv77J-MBpU&index=2" class="contenidos__titulo_2">Gumercindo Palacios</a><br>
+                    <a href="https://www.youtube.com/watch?v=oG9qhEDBzLo&list=RDaOv77J-MBpU&index=2"
+                        class="contenidos__titulo_2">Gumercindo Palacios</a><br>
                     <img src="assets/imagenes/Gumercindo_Palacios.jpeg" alt="gumercindo">
                 </tr>
             </div>
-            <a id="contenidos__titulo_2" href="https://www.youtube.com/watch?v=Nk8C9FdCdJQ">Ese tipoooo</a>
-            </div>
-            <audio src="assets/Music/meMata.mp3" loop>Me marimbista</audio>
+        </div>
+
     </header>
-    </body>
+</body>
+
 </html>
